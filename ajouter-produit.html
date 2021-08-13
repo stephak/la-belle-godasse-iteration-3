@@ -1,0 +1,36 @@
+<!DOCTYPE "html">
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+	<title>Page d'accueil des données des chaussures la Belle Godasse-Bretagne</title>
+</head>
+<body>
+	<header>
+		<logo>
+				<img src="./images/sneakers-vector.svg" width="100%">
+		</logo>
+		<nav class="nav" role="navigation">
+				<ul class="menu">
+					<li><a href="./index.html">accueil</a></li>
+					<li><a href="./achat.html">achats</a></li>
+					<li><a href="./liste-produits.html">produits</a></li>
+					<li><a href="./liste-magasins.html">magasins</a></li>
+					<li class="push"><a href="./profil.html">profil</a> </li>
+				</ul>	
+
+		</nav>
+	</header>
+	<main>
+		<p id="fil_ariane"> Ajouter produit</p>
+			<form class="formulaire" action="ajouter-produit-done.html" method="post">
+				<label for="genre">genre</label><input type="text" name="genre" id="genre"><br/>
+				<label for="type">type</label><input type="text" name="type" id="type"><br/>
+				<label for="prix">prix</label><input type="text" name="prix" id="prix"><br/>
+				<button type="submit">Enregistrer nouveau modèle</button>
+			</form>
+	</main>
+	<footer>
+	</footer>
+</body>
+</html>
